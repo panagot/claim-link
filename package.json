@@ -1,0 +1,45 @@
+{
+  "name": "claim-link",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Claimlink — STRK20 claim links on Starknet Sepolia. Pay recipients before they register a viewing key.",
+  "license": "MIT",
+  "author": "Panagiotis Pollis <panagiotispollis@gmail.com>",
+  "homepage": "https://claim-link.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panagot/claim-link.git"
+  },
+  "bugs": {
+    "url": "https://github.com/panagot/claim-link/issues"
+  },
+  "keywords": [
+    "starknet",
+    "strk20",
+    "claim-links",
+    "privacy",
+    "sepolia"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "test:smoke": "node scripts/smoke-wallet-errors.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "starknet": "^10.8.0",
+    "strk20-envelope": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.89.0",
+    "vite": "^8.3.5"
+  }
+}

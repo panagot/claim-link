@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Live app
+    url: https://claim-link.vercel.app
+    about: Try Claimlink on Starknet Sepolia before filing an issue.
+  - name: Reviewer E2E
+    url: https://github.com/panagot/claim-link/blob/main/docs/REVIEWER_E2E.md
+    about: Default public fund → claim_to_address walkthrough.
